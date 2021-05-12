@@ -8,7 +8,7 @@ Todas las dependencias que definamos quedan reflejadas en el archivo ***composer
 
 Cuando instalamos paquetes con *composer*, se crea un directorio ***vendor*** en el directorio raíz del proyecto, que es donde instalará las dependencias del proyecto.
 
-    Si usamos *git*, es buena idea incluir el directorio ***vendor*** en ***.gitignore***.
+> Si usamos *git*, es buena idea incluir el directorio ***vendor*** en ***.gitignore***.
 
 ## Paquetes de la plataforma
 

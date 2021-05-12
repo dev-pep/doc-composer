@@ -1,6 +1,6 @@
 # Comandos
 
-    En formato *JSON*, `{...}` es un mapping (diccionario key: value), y `[...]` un *array*.
+> En formato *JSON*, `{...}` es un mapping (diccionario key: value), y `[...]` un *array*.
 
 `composer init` ejecuta un *wizard* que solicita información del proyecto. Autor, tipo, licencia,... Crea un `composer.json` nuevo con la información aportada.
 
