@@ -12,9 +12,9 @@
 
 Si solo deseamos actualizar un paquete determinado:
 
- ```
- composer update vendor/paquete
- ```
+```
+composer update vendor/paquete
+```
 
 `composer install` instala los paquetes según la definición de `composer.lock`, es decir, recrea esa última instantánea. Esto es útil, por ejemplo, si queremos replicar las mismas dependencias en otro equipo: solo hay que copiar `composer.lock` en el otro equipo y ejecutar `composer install` en él para tener exactamente el mismo estado de dependencias en los dos lados. En el caso de que no exista `composer.lock`, ejecuta `composer update`.
 
